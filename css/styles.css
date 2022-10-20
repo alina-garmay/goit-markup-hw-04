@@ -115,8 +115,6 @@ img {
 .contacts {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
   color: var(--primary-text-color);
   fill: var(--primary-text-color);
   font-weight: 500;
@@ -214,6 +212,7 @@ img {
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
+  border-radius: 4px;
   background-color: var(--secondary-bg-color);
 }
 
@@ -362,12 +361,17 @@ img {
   color: var(--primary-white-color);
 }
 
+.footer-container{
+  display: flex;
+  align-items: baseline;
+}
+
+.address-container {
+  padding-right: 24px;
+}
 .address {
   margin-top: 20px;
   font-style: normal;
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
 }
 
 .address-list {
@@ -389,9 +393,6 @@ img {
   margin-bottom: 9px;
 }
 
-.address-container {
-  padding-right: 24px;
-}
 
 .contacts-footer {
   color: var(--accept-text-color);
@@ -442,7 +443,7 @@ img {
 .social-footer-link:focus {
   background-color: var(--accept-color);
 }
-.portfolio-list {
+.button-list {
   padding-bottom: 16px;
   display: flex;
   justify-content: center;
